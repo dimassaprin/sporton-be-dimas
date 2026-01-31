@@ -1,9 +1,10 @@
 import express from "express";
 import cors from "cors";
-import { authenticate } from "./middlewares/auth.middleware";
 import authRoutes from "./routes/auth.routes";
+import { authenticate } from "./middlewares/auth.middleware";
 
-const app = express()
+const app = express();
+
 app.use(cors());
 app.use(express.json());
 
