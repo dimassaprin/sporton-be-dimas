@@ -5,7 +5,7 @@ import productRoutes from "./routes/product.routes"
 import { authenticate } from "./middlewares/auth.middleware";
 import path from "path";
 import authRoutes from "./routes/auth.routes";
-import bankRoutes from "../src/routes/bank.routes";
+import bankRoutes from "./routes/bank.routes";
 import transactionRoutes from "./routes/transaction.routes";
 
 const app = express();
